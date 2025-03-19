@@ -1,5 +1,11 @@
 appsettings.json
 appsettings.Development.json
+.vs/
+SIMS-Project/.vs/
+SIMS-Project/SIMS-Project/obj/
+SIMS-Project/SIMS-Project/appsettings.json
+SIMS-Project/SIMS-Project/appsettings.Development.json
+SIMS-Project/SIMS-Project/SIMS-Project.csproj.user
 # Visual Studio cache files
 .vs/
 *.suo
