@@ -1,0 +1,24 @@
+appsettings.json
+# Visual Studio cache files
+.vs/
+*.suo
+*.user
+*.cache
+*.ilk
+*.ncb
+*.aps
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Build output
+bin/
+obj/
+*.pdb
+*.log
+*.tlog
+
+# NuGet packages
+*.nupkg
+packages/
