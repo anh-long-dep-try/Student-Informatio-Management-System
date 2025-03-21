@@ -4,10 +4,16 @@ namespace SIMS_Project.Repositories
 {
     public interface IUserRepository
     {
-        User GetUserByUsername(string username);
+        IEnumerable<User> GetAllUsers();
+
+        User GetUserById(int id);
 
         User GetUserByUsernameAndPassword(string username, string password);
 
-        User GetUserByRole(string role);
+        bool CreateUser(User user);
+
+        bool UpdateUser(User user);
+
+        bool DeleteUser(int id);
     }
 }

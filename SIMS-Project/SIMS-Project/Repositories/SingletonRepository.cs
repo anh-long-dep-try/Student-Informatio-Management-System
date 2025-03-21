@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace SIMS_Project.Repositories
 {
-    public class SingletonRepository<T> : IRepository<T> where T : class
+    public class SingletonRepository<T> where T : class
     {
         protected AppDbContext _appDbContext;
         protected DbSet<T> _dbSet;
